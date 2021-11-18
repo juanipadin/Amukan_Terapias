@@ -1,0 +1,385 @@
+#header{
+    background-color: #fff;
+    font-family: 'Questrial', sans-serif;
+}
+.navbar{
+    font-family: 'Questrial', sans-serif;
+    background-color: #fff;
+}
+
+.navbar li a{
+    color: #e2c043;
+}
+
+.list{
+    font-family: 'Inter', sans-serif;
+    margin: 15px;
+    font-size: x-large;
+}
+
+#hero h1{
+    font-family: 'Inter', sans-serif;
+    color: #e2c043;
+}
+
+#hero div a{
+    font-family: 'Questrial', sans-serif;
+    background-color: #e2c043;
+}
+
+#tituloPrincipal{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 50px;
+    color: #a7b46e;
+}
+
+#btnConoce{
+    font-family: 'Questrial', sans-serif;
+    background-color: #e2c043;
+    border: none;
+    justify-content: left;
+}
+#btnConoce:hover {
+    background: #a7b46e; 
+}
+
+
+.textAbout{
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.textSecond{
+    font-family:'Inter', sans-serif;
+    color:#e2c043;
+    list-style: none;
+    font-size: 18px;
+}
+
+#tituloAyuda{
+    font-family: 'Questrial', sans-serif;
+    line-height: normal;
+    font-size: 50px;
+    color: #a7b46e;
+    text-align: left;
+    margin: auto;
+}
+
+.btnServicios{
+    font-family: 'Questrial', sans-serif;
+    background-color: #e2c043;
+    border: none;
+    align-self: start;
+}
+.btnServicios:hover {
+    background: #a7b46e; 
+}
+
+#tituloProductos{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: #a7b46e;
+}
+.productosImg{
+    background-image: url(/img/Ilustracion\ mano2.png);
+    background-size: auto;
+}
+#tituloContacto{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: #a7b46e;
+}
+
+#btn_contacto{
+    color: white !important;
+}
+
+#btn_contacto {
+    border: 1px solid #A7B46E;
+    padding: 5px 60px;
+    background-color: #A7B46E;
+    border-radius: 10px;
+    transition: 0.5s
+}
+
+#btn_contacto:hover{
+    border: 1px solid #e2c043;
+    background-color: #e2c043;
+}
+
+/* ABOUT US */
+.card-about-container {
+    font-family: 'Questrial', sans-serif;
+    height: auto; 
+    overflow: auto;
+    padding-top: 150px;
+}
+.card-about-container h1{
+    font-size: 350%;;
+}
+
+.card-about-container h2{
+    font-weight:bold;
+    color: #a7b46e;
+    font-size: 100%;
+}
+
+.card-about-title-hola{
+    color: #a7b46e;
+    display:inline
+}
+.card-about-title-katy{
+    color: #e2c043;
+    display:inline;
+    font-weight: bold
+}
+
+.card-about-container p{
+    color: #a7b46e;
+    line-height: 20px;
+}
+
+.card-about-thumb {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.card-about-thumb img {
+    display: block;
+    margin-left: 80px;
+    width: 55%;
+    height: 100%;
+}
+
+.card-about-content {
+    margin-left: 50px;
+    margin-top: 50px
+}
+
+/* END ABOUT US */
+
+/* BOTON CONTACTO */
+.btn-contacto{
+    border: 1px solid #e2c043;
+    padding: 5px 60px;
+    background-color: #e2c043;
+    color: white !important;
+    border-radius: 10px;
+    transition: 0.5s
+}
+
+.btn-contacto:hover{
+    border: 1px solid #a7b46e;
+    background-color: #a7b46e;
+}
+/* END BOTON CONTACTO */
+
+/* TARJETA ÚNICA DE PRODUCTO */
+
+.card-producto-container {
+    font-family: 'Questrial', sans-serif;
+    height: 450px;
+    margin: 100px; 
+    border: 1px solid #a7b46e;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-producto-container h1{
+    color: #e2c043;
+}
+
+.card-producto-container p{
+    color: #a7b46e;
+    line-height: 20px;
+}
+
+.card-producto-thumb {
+    float: right
+}
+
+.card-producto-thumb img {
+    display: block;
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 250px;
+}
+
+.card-producto-content {
+    margin-left: 50px;
+    margin-top: 50px
+}
+
+.card-producto-title {
+    font-weight: bold;
+    font-size: 200%
+}
+
+/* END TARJETA ÚNICA DE PRODUCTO */
+
+/* TARJETAS SERVICIOS THUMBNAIL */
+
+
+.card-servicios-container {
+    font-family: 'Questrial', sans-serif;
+    height: auto;
+    padding-top: 150px;
+    overflow: auto;
+    
+}
+
+.cajaServicios{
+    border-bottom: 1px solid #a7b46e;
+}
+
+
+.card-servicios-container h1{
+    color: #e2c043;
+}
+
+.card-servicios-container p{
+    color: #a7b46e;
+    line-height: 20px;
+}
+
+.card-servicios-container li{
+    list-style-type: "- ";
+}
+
+.card-servicios-thumb {
+    float: left
+}
+
+.card-servicios-thumb img {
+    display: block;
+    margin-top: 15%;
+    margin-left: 80px;
+    height: 250px;
+}
+
+.card-servicios-content {
+    margin-left: 350px;
+    margin-top: 10px
+}
+
+.card-servicios-title {
+    font-weight: bold;
+    font-size: 200%
+}
+
+
+@media (max-width: 992px) {
+    /* RESPONSIVE SERVICIO */
+    .servicios{
+        margin-top: 40px;
+        
+    }
+    .card-servicios-container{
+        height: 100%;
+        margin-bottom: 10px;
+    }
+ 
+    .card-servicios-content {
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        
+    }
+    .card-servicios-container p{
+        line-height: 10px;
+        
+    }
+    .card-servicios-title{
+        text-align: center;
+    }
+    .card-servicios-parrafo{
+        text-align: center;
+    }
+    
+    .containerBotonContacto{
+        text-align: center;
+    }
+
+    .datosKaty{
+        text-align: center;
+    }
+    #btn_contacto{
+        padding: auto;
+    }
+    
+
+
+    /* END RESPONSIVE SERVICIO */
+
+    /* RESPONSIVE PRODUCTO */
+    .card-producto-container{
+        height: 550px;
+        width: 90%;
+        margin: 35px 0px 0px 0px;
+        border: none;
+        box-shadow: none;
+    }
+    .card-producto-thumb img {
+        display: none;
+    }
+    .card-producto-title {
+        font-size: 150%
+    }
+    .card-producto-content {
+        margin-left: 20px;
+        text-align: justify;
+    }
+    /* END RESPONSIVE PRODUCTO */
+
+    /* RESPONSIVE ABOUT */
+
+   
+    .card-about-container{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card-about-content {
+        margin: 10px 10px 10px 20px;
+    }
+    .card-about-title-hola{
+        color: #a7b46e;
+        display:block;
+        text-align: center;
+}
+    .card-about-title-katy{
+        display:block;
+        text-align: center;
+}
+.card-about-title-katy{
+    display:block;
+    text-align: center;
+}
+
+
+
+    /* END RESPONSIVE ABOUT */
+}
+
+
+    /* CONTACTO */
+
+#contactFormulario {
+    padding-top: 150px;
+}
+#tituloContactoFormulario{
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 50px;
+    color: #a7b46e;
+}
